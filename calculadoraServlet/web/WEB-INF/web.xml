@@ -1,0 +1,12 @@
+<web-app>
+    
+    <servlet>
+        <servlet-name>Calculator</servlet-name>
+        <servlet-class>CalculadoraS.Calculator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Calculator</servlet-name>
+        <url-pattern>/Calculator</url-pattern>
+    </servlet-mapping>
+   
+</web-app>
