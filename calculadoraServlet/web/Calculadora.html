@@ -1,31 +1,30 @@
 <html>
 <head>
-    <title>Calculadora   con   Servlet</title>
+    <title>Calculadora   en   Servlet</title>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
             
             body{
-                background-color: darkcyan;
+                background-color: beige;
                
             }
             font
             {
-                color:  white;
+                color:  black;
             }
         </style>
 </head>
     <body>
-        
+        <br><br><br><br>
         
     <center>
-        <h1>_CALCULADORA_</h1>
+        <h2>" CALCULADORA "</h2>
         <br><br>
     <form   action="Calculator"   method=POST>
-
-
-    <input   name="num1"   type="text">
+        
+    <input   name="numA"   type="text">
 
         <SELECT name="operacion">
             <option value="1" selected >+</option>
@@ -39,19 +38,24 @@
              <option value="9">ln</option>
               <option value="10">abs</option>
         </SELECT>
-    <input name="num2"   type=   "text">
+        <input name="numB"   type=   "text">
     <br>
     <br>
     <input   name="Calcular"  value="Calcular" type="submit">
-    &nbsp;&nbsp;
+    <br><br>
     <input   name="limpiar" value="Limpiar" type="reset">
     </form>
+    </center>
         
-        <br><br> <h3>NOTA: Si usaras acos,cos,asin,sin,ln o abs poner en el segundo recuadro 0 y llenar el primero con la información</h3>   
+    <br><br> <p align="right"> " NOTA usando acos,cos,asin,sin,ln o abs poner en <br>
+            el segundo recuadro 0 y llenar el primero " </p>   
         <br><br><br>
         
-    </center>
     
-    <h6>Elaboró: Celeste Juárez</h6>
+    
+        <p align="left"><font size="5"> Work in class for Oropeza <br> 
+            "Calculadora en Servlet" <br> 
+            Miguel Hidalgo, Ciudad de Mexico MX <br>
+        c. 20018 </p>
     </body>
 </html>
